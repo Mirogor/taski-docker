@@ -41,7 +41,7 @@ jobs:
       # Добавляем env-переменные для доступа к БД
       env:
         POSTGRES_USER: django_user
-        POSTGRES_PASSWORD: django_password
+        POSTGRES_PASSWORD: 1234
         POSTGRES_DB: django_db
         # Сервер БД запущен в Docker, но его порт проброшен на хост
         # Поэтому подключаемся к 127.0.0.1:5432
